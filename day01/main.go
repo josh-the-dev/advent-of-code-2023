@@ -10,7 +10,6 @@ import (
 )
 
 func main() {
-	// Hello world, the web server
 	file, err := os.Open("./input.txt")
 	if err != nil {
 		log.Fatal(err)
